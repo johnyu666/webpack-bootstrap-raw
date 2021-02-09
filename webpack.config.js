@@ -17,11 +17,11 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(sa|sc|c)ss$/,
+                test: /\.(sa|sc|le|c)ss$/,
                 use: [
                     "style-loader",
                     "css-loader",
-                    "sass-loader"
+                    "less-loader"
                 ],
             },
             {

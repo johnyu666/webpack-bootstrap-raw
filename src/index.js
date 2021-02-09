@@ -1,8 +1,8 @@
 import $ from "expose-loader?exposes=$,jQuery!jquery";
 
 import 'bootstrap';
-// import 'bootstrap/scss/bootstrap.scss'
-import './my.scss'
+import 'bootstrap/less/bootstrap.less'
+// import './my.scss'
 
 $(document).ready(function () {
     let btn=document.createElement('button')
